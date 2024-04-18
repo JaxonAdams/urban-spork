@@ -8,11 +8,26 @@ html, body {
 }
 
 
-/* main element styles */
+/* shared styles */
 main {
   padding-bottom: 2.5rem;  /* leave room for footer */
 }
-/* end main element styles */
+
+.txt {
+  letter-spacing: 0.5px;
+  color: var(--txt);
+}
+/* end shared styles */
+
+
+/* header component styles */
+header {
+  padding: 0 2rem;
+  border-bottom: 3px solid var(--txt);
+  display: flex;
+  justify-content: space-between;
+}
+/* end header component styles */
 
 
 /* footer component styles */

@@ -17,7 +17,8 @@ class LightDarkToggle {
         console.log(this.toggleStatus);
 
         this.darkColors = {
-            background: "#242424",
+            // background: "#242424",  // I might use this style later
+            background: "#000000",
             secondary: "#062F4F",
             highlight: "#B82601",
             txt: "#FFFFFF"
