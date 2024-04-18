@@ -17,6 +17,13 @@ const Hero: React.FC = () => {
                     </div>
                 </div>
             </div>
+            <div className="hero-intro-txt">
+                <p className="txt">
+                    I'm currently a product integrations engineer building new automations
+                    and integrating other platforms at LoanPro. At the moment I'm building
+                    with Python and Ruby.
+                </p>
+            </div>
         </div>
     );
 }

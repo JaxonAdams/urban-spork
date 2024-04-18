@@ -11,11 +11,13 @@ html, body {
 /* shared styles */
 main {
   padding-bottom: 2.5rem;  /* leave room for footer */
+  position: relative;
 }
 
 .txt {
   letter-spacing: 0.5px;
   color: var(--txt);
+  font-size: 1.2rem;
 }
 
 .txt-highlight {
@@ -36,18 +38,19 @@ header {
 
 /* hero component styles */
 .hero {
-  height: 35vh;
+  min-height: 35vh;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 10vh 0;
+  flex-direction: column;
 }
 
 .hero-grid {
   height: 100%;
   width: 100%;
   display: grid;
-  grid-template-rows: 300px 100px;
+  grid-template-rows: 300px;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
@@ -56,6 +59,7 @@ header {
   align-items: center;
   justify-content: center;
   flex-flow: column;
+  margin: 0 2rem;
 }
 
 .hero-title {
@@ -68,6 +72,12 @@ header {
   font-weight: 600;
   padding: 0;
   margin: 0;
+}
+
+.hero-title h2 {
+  border-bottom: 2px solid var(--secondary);
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .hero-title p {
@@ -92,6 +102,11 @@ header {
   border-radius: 50%;
   width: 100%;
   height: 100%;
+}
+
+.hero-intro-txt {
+  margin: 0 10rem;
+  padding: 1rem;
 }
 /* end hero component styles */
 
@@ -141,3 +156,44 @@ footer {
   transform: translateX(20px);
 }
 /* end footer component styles */
+
+
+/* media queries for responsive layout */
+
+/* desktop styles */
+@media screen and (max-width: 1024px) {
+  .hero-intro-txt {
+    margin: 0;
+  }
+}
+
+/* tablet styles */
+@media screen and (max-width: 768px) {
+  .hero {
+    min-height: 20vh;
+  }
+
+  .hero-grid {
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+  }
+
+  .hero-grid>* {
+    grid-column: 1 / 2;
+    margin: 1.5rem 0;
+    justify-content: center;
+  }
+
+  .hero-title {
+    grid-row: 1 / 2;
+  }
+
+  .hero-portrait {
+    grid-row: 2 / 3;
+  }
+
+  .hero-intro-txt {
+    grid-row: 3 / 4;
+    margin: 0;
+  }
+}
