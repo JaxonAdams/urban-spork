@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { SunFill, MoonFill } from "react-bootstrap-icons";
 import LightDarkToggle from "../../utils/LightDarkToggle";
 
@@ -9,9 +9,14 @@ interface Props {
 const Footer: React.FC<Props> = ({ toggler }) => {
     const [isToggled, setToggled] = useState<boolean>(false);
 
+    useEffect(() => {
+        console.log(toggler.isToggled());
+        setToggled(toggler.isToggled());
+    }, []);
+
     const updateToggleStatus = () => {
-            toggler.toggleMode();
-            setToggled(toggler.isToggled());
+        toggler.toggleMode();
+        setToggled(toggler.isToggled());
     }
 
     const getSliderElement = (isToggled: boolean): JSX.Element => {

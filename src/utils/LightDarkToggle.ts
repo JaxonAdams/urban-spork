@@ -13,7 +13,8 @@ class LightDarkToggle {
     private lightColors: Colors;
 
     constructor() {
-        this.toggleStatus = false;
+        this.toggleStatus = (localStorage.getItem("darkMode") == "true") || false;
+        console.log(this.toggleStatus);
 
         this.darkColors = {
             background: "#242424",
@@ -28,10 +29,15 @@ class LightDarkToggle {
             highlight: "#FF3B3F",
             txt: "#000000"
         }
+
+        this.updateColors(this.toggleStatus);
     }
 
     toggleMode = () => {
         this.toggleStatus = !this.toggleStatus;
+        localStorage.setItem("darkMode", String(this.toggleStatus));
+        console.log("LOCAL STORAGE UPDATED");
+        console.log(this.toggleStatus, localStorage.getItem("darkMode"));
         this.updateColors(this.toggleStatus);
     }
 
