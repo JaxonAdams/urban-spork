@@ -2,6 +2,7 @@ import React from "react";
 
 import LightDarkToggle from "../utils/LightDarkToggle";
 import Header from "../components/Header/Header";
+import Hero from "../components/Hero/Hero";
 import Footer from "../components/Footer/Footer";
 
 interface Props {
@@ -13,7 +14,7 @@ const Home: React.FC<Props> = ({ appModeToggler }) => {
         <>
         <Header />
         <main>
-            <h1>Hello, world!</h1>
+            <Hero />
         </main>
         <Footer toggler={appModeToggler} />
         </>
