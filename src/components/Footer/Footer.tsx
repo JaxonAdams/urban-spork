@@ -15,8 +15,7 @@ const Footer: React.FC = () => {
         const root = document.documentElement;
 
         const darkColors: Colors = {
-            // background: "#242424",
-            background: "#000000",
+            background: "#242424",
             secondary: "#062F4F",
             highlight: "#B82601",
             txt: "#FFFFFF"
