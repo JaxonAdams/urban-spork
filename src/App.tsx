@@ -5,10 +5,12 @@ import './App.css'
 function App() {
 
   return (
+    <>
     <main>
       <h1>Hello, world!</h1>
-      <Footer />
     </main>
+    <Footer />
+    </>
   )
 }
 
