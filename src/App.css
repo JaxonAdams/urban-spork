@@ -33,6 +33,41 @@ header {
   display: flex;
   justify-content: space-between;
 }
+
+.menu-btn {
+  position: absolute;
+  z-index: 3;
+  right: 35px;
+  top: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+.btn-line {
+  width: 28px;
+  height: 3px;
+  margin-bottom: 5px;
+  background: var(--txt);
+  transition: all 0.3s ease-out;
+}
+
+.close {
+  transform: rotate(180deg);
+}
+
+.close .btn-line:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+  background: var(--highlight);
+}
+
+.close .btn-line:nth-child(2) {
+  opacity: 0;
+}
+
+.close .btn-line:nth-child(3) {
+  transform: rotate(-45deg) translate(7px, -6px);
+  background: var(--highlight);
+}
 /* end header component styles */
 
 

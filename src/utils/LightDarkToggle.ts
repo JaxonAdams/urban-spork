@@ -14,7 +14,6 @@ class LightDarkToggle {
 
     constructor() {
         this.toggleStatus = (localStorage.getItem("darkMode") == "true") || false;
-        console.log(this.toggleStatus);
 
         this.darkColors = {
             // background: "#242424",  // I might use this style later

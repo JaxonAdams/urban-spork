@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 import LightDarkToggle from "../utils/LightDarkToggle";
 import Header from "../components/Header/Header";
@@ -10,9 +10,11 @@ interface Props {
 }
 
 const Home: React.FC<Props> = ({ appModeToggler }) => {
+    const [showNavMenu, setShowNavMenu] = useState<boolean>(false);
+
     return (
         <>
-        <Header />
+        <Header showNavMenu={showNavMenu} setShowNavMenu={setShowNavMenu} />
         <main>
             <Hero />
         </main>

@@ -10,7 +10,6 @@ const Footer: React.FC<Props> = ({ toggler }) => {
     const [isToggled, setToggled] = useState<boolean>(false);
 
     useEffect(() => {
-        console.log(toggler.isToggled());
         setToggled(toggler.isToggled());
     }, []);
 
