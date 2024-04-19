@@ -36,8 +36,6 @@ class LightDarkToggle {
     toggleMode = () => {
         this.toggleStatus = !this.toggleStatus;
         localStorage.setItem("darkMode", String(this.toggleStatus));
-        console.log("LOCAL STORAGE UPDATED");
-        console.log(this.toggleStatus, localStorage.getItem("darkMode"));
         this.updateColors(this.toggleStatus);
     }
 

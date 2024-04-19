@@ -18,6 +18,7 @@ main {
   letter-spacing: 0.5px;
   color: var(--txt);
   font-size: 1.2rem;
+  /* padding-top: 8px; */
 }
 
 .txt-highlight {
@@ -28,6 +29,11 @@ main {
 
 /* header component styles */
 header {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-wrapper {
   padding: 0 2rem;
   border-bottom: 3px solid var(--txt);
   display: flex;
@@ -36,9 +42,9 @@ header {
 
 .menu-btn {
   position: absolute;
-  z-index: 3;
+  z-index: 9999;
   right: 35px;
-  top: 25px;
+  top: 20px;
   cursor: pointer;
   transition: all 0.3s ease-out;
 }
@@ -69,6 +75,40 @@ header {
   background: var(--highlight);
 }
 /* end header component styles */
+
+
+/* nav-menu component styles */
+.nav-menu {
+  position: relative;
+  top: -20px;  /* initially shifted to the right */
+  opacity: 0;
+  transition: all 0.3s ease;
+  user-select: none;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.nav-menu.nav-visible {
+  top: 0;
+  opacity: 1;
+  border-bottom: 1px solid var(--secondary);
+}
+
+.nav-menu ul {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.menu-item {
+  padding-top: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+/* end nav-menu component styles */
 
 
 /* hero component styles */
