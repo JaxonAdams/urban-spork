@@ -5,9 +5,10 @@ import NavMenu from "../NavMenu/NavMenu";
 interface Props {
     showNavMenu: boolean
     setShowNavMenu: Function;
+    setPage: Function;
 }
 
-const Header: React.FC<Props> = ({ showNavMenu, setShowNavMenu }) => {
+const Header: React.FC<Props> = ({ showNavMenu, setShowNavMenu, setPage }) => {
 
     return (
         <header>
@@ -20,7 +21,7 @@ const Header: React.FC<Props> = ({ showNavMenu, setShowNavMenu }) => {
                     <div className="btn-line" />
                 </div>
             </div>
-            <NavMenu visible={showNavMenu} />
+            <NavMenu visible={showNavMenu} setPage={setPage} />
         </header>
     );
 }
