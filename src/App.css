@@ -10,7 +10,7 @@ html, body {
 
 /* shared styles */
 main {
-  padding-bottom: 2.5rem;  /* leave room for footer */
+  padding-bottom: 3.5rem;  /* leave room for footer */
   position: relative;
 }
 
@@ -23,6 +23,20 @@ main {
 
 .txt-highlight {
   color: var(--highlight);
+}
+
+.links-container {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  padding: 1rem;
+}
+
+.link-button {
+  width: 250px;
+  background-color: var(--secondary);
+  cursor: pointer;
 }
 /* end shared styles */
 
