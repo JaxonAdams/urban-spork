@@ -26,7 +26,6 @@ main {
 }
 
 .links-container {
-  width: 100%;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
@@ -35,8 +34,22 @@ main {
 
 .link-button {
   width: 250px;
-  background-color: var(--secondary);
+  margin: 1.5rem 0 0.5rem 0;
   cursor: pointer;
+  display: flex;
+  flex-direction: row wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 3px solid var(--secondary);
+  border-radius: 18px;
+  font-size: 1.5rem;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  color: var(--txt);
+}
+
+.link-button:hover {
+  border: 3px solid var(--highlight);
 }
 /* end shared styles */
 
@@ -209,7 +222,7 @@ footer {
   border-top: 3px solid var(--txt);
   position: absolute;
   bottom: 0;
-  width: 100%;
+  width: calc(100% - 1rem);
   height: 2.5rem;
   padding: 0.5rem;
 }
@@ -260,6 +273,7 @@ footer {
 @media screen and (max-width: 768px) {
   .hero {
     min-height: 20vh;
+    margin: 0.5rem;
   }
 
   .hero-grid {

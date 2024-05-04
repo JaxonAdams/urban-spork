@@ -9,8 +9,8 @@ const Home: React.FC = () => {
         <>
         <Hero />
         <div className="links-container">
-            <LinkButton icon={<Github />} displayText="GitHub" />
-            <LinkButton icon={<Linkedin />} displayText="LinkedIn"/>
+            <LinkButton icon={<Github />} displayText="GitHub" url="https://github.com/JaxonAdams" />
+            <LinkButton icon={<Linkedin />} displayText="LinkedIn" url="https://www.linkedin.com/in/jaxon-adams-ba5743229/" />
         </div>
         </>
     );

@@ -2,15 +2,16 @@ import React from "react";
 
 interface Props {
     icon: React.ReactElement,
-    displayText: string
+    displayText: string,
+    url: string
 }
 
-const LinkButton: React.FC<Props> = ({ icon, displayText }: Props) => {
+const LinkButton: React.FC<Props> = ({ icon, displayText, url }: Props) => {
     return (
-        <div className="link-button">
+        <a className="link-button" href={url} target="_Blank">
             {icon}
             <p>{displayText}</p>
-        </div>
+        </a>
     );
 }
 
