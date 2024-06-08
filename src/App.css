@@ -263,7 +263,7 @@ footer {
 /* about me page */
 .about-me-txt-container {
   max-width: 700px;
-  margin: 1rem auto;
+  margin: 1rem auto 3rem auto;
 }
 
 .txt-container-header {
@@ -280,6 +280,32 @@ footer {
 .about-me-txt-container>.txt {
   font-size: 1.1rem;
   padding-top: 2rem;
+}
+
+.language-carousel {
+  margin: 2rem auto;
+  /* display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-evenly; */
+  display: grid;
+  gap: 50px;
+  grid-template-columns: auto auto auto;
+}
+
+.language-carousel>* {
+  font-size: 4rem;
+  color: var(--txt);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.language-carousel>*:hover {
+  color: var(--highlight);
+}
+
+.icon-txt {
+  font-size: 1rem;
 }
 /* end about me page */
 
@@ -322,5 +348,12 @@ footer {
   .hero-intro-txt {
     grid-row: 3 / 4;
     margin: 0;
+  }
+}
+
+/* mobile phone styles */
+@media screen and (max-width: 580px) {
+  .language-carousel {
+    gap: 30px;
   }
 }
