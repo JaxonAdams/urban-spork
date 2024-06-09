@@ -107,7 +107,7 @@ header {
 /* nav-menu component styles */
 .nav-menu {
   position: relative;
-  top: -20px;  /* initially shifted to the right */
+  top: -20px;
   opacity: 0;
   transition: all 0.3s ease;
   user-select: none;
@@ -126,11 +126,13 @@ header {
   padding: 0;
   width: 100%;
   display: flex;
+  flex-flow: row wrap;
   justify-content: space-evenly;
 }
 
 .menu-item {
   padding-top: 5px;
+  margin: 10px 20px;
   font-size: 18px;
   font-weight: 500;
   cursor: pointer;
@@ -360,5 +362,14 @@ footer {
 @media screen and (max-width: 580px) {
   .language-carousel {
     gap: 30px;
+  }
+
+  header {
+    height: 50px;
+    transition: all 0.3s ease;
+  }
+
+  header:has(.nav-menu.nav-visible) {
+    height: 200px;
   }
 }

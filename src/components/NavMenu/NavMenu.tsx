@@ -28,6 +28,10 @@ const NavMenu: React.FC<Props> = ({ visible, setPage }) => {
                     onClick={() => {updateCurPage("aboutMe")}}>
                     About Me
                 </li>
+                <li className={`menu-item txt ${currentlyOnPage("projects") && "txt-highlight"}`}
+                    onClick={() => {updateCurPage("projects")}}>
+                    Projects
+                </li>
             </ul>
         </nav>
     );

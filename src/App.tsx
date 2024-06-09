@@ -6,6 +6,7 @@ import LightDarkToggle from "./utils/LightDarkToggle";
 import Header from "./components/Header/Header";
 import Home from "./pages/Home";
 import AboutMe from "./pages/AboutMe";
+import Projects from "./pages/Projects";
 import Footer from "./components/Footer/Footer";
 
 interface PageMapping {
@@ -25,7 +26,8 @@ function App() {
   const setPage = (pageStr: string): string => {
     const pageMap: PageMapping = {
       "home": <Home />,
-      "aboutMe": <AboutMe />
+      "aboutMe": <AboutMe />,
+      "projects": <Projects />
     };
 
     setCurrentPage(pageMap[pageStr]);
