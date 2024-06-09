@@ -300,14 +300,15 @@ footer {
   grid-template-columns: auto auto auto;
 }
 
-.language-carousel>* {
+.dev-icon {
   font-size: 4rem;
   color: var(--txt);
   transition: all 0.3s ease;
   cursor: pointer;
+  margin: 0 1rem;
 }
 
-.language-carousel>*:hover {
+.dev-icon:hover {
   color: var(--highlight);
 }
 
@@ -316,6 +317,94 @@ footer {
 }
 /* end about me page */
 
+/* projects page */
+.projects {
+  margin: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.project-card {
+  margin: 0.5rem 0 2rem 0;
+  padding-bottom: 2rem;
+  height: 30vh;
+  min-height: 350px;
+  width: 80%;
+  min-width: 200px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+  border: 3px solid var(--secondary);
+  border-radius: 15px;
+}
+
+.project-card>* {
+  height: 100%;
+  width: 40%;
+  min-width: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.project-card-right {
+  padding-top: 2rem;
+}
+
+.project-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+}
+
+.project-link {
+  color: var(--txt);
+  letter-spacing: 1.3px;
+  font-weight: 400;
+  font-size: 1.5rem;
+  text-decoration: none;
+  border: 2px solid var(--secondary);
+  border-radius: 30px;
+  transition: all 0.3s ease;
+  padding: 1rem;
+}
+
+.project-link:hover {
+  border: 2px solid var(--highlight);
+}
+
+.project-img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border: 2px solid var(--secondary);
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.project-img:hover {
+  border: 2px solid var(--highlight);
+}
+
+.project-languages {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0;
+  margin: 0 1rem;
+}
+
+.project-languages > * {
+  font-size: 2rem;
+}
+/* end projects page */
+
 
 /* media queries for responsive layout */
 
@@ -323,6 +412,10 @@ footer {
 @media screen and (max-width: 1024px) {
   .hero-intro-txt {
     margin: 0;
+  }
+
+  .project-card {
+    width: 100%;
   }
 }
 
@@ -356,6 +449,19 @@ footer {
     grid-row: 3 / 4;
     margin: 0;
   }
+
+  .project-card {
+    flex-flow: column nowrap;
+    height: auto;
+  }
+
+  .project-card>* {
+    width: 90%;
+  }
+
+  .project-card-right>* {
+    margin-top: 1.5rem;
+  }
 }
 
 /* mobile phone styles */
@@ -370,6 +476,15 @@ footer {
   }
 
   header:has(.nav-menu.nav-visible) {
+    height: 200px;
+  }
+
+  .project-card {
+    min-width: 120%;
+  }
+
+  .project-img {
+    width: 200px;
     height: 200px;
   }
 }
