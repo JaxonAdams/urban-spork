@@ -191,6 +191,7 @@ header {
 .hero-portrait {
   grid-row: 1 / 2;
   grid-column: 3 / 4;
+  user-select: none;
 }
 
 .portrait-container {
@@ -256,6 +257,10 @@ footer {
 
 .slider-toggle.on .slider-track {
   transform: translateX(20px);
+}
+
+.footer-txt {
+  color: var(--txt);
 }
 /* end footer component styles */
 

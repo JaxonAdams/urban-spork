@@ -29,7 +29,7 @@ const Footer: React.FC<Props> = ({ toggler }) => {
     return (
         <footer>
             <div className="footer-element">
-                <p className="footer-txt">&copy;2024</p>
+                <a className="footer-txt" href="mailto:jaxon.adams01@gmail.com">Email me!</a>
             </div>
             <div className={`footer-element slider-toggle ${isToggled ? 'on' : ''}`} id="light-dark-toggle" onClick={updateToggleStatus}>
                 <div className="slider-track">

@@ -16,10 +16,11 @@ class LightDarkToggle {
         this.toggleStatus = (localStorage.getItem("darkMode") == "true") || false;
 
         this.darkColors = {
-            // background: "#242424",  // I might use this style later
             background: "#000000",
-            secondary: "#062F4F",
-            highlight: "#B82601",
+            // secondary: "#062F4F",  // I might use this style later
+            secondary: "#419BF9",
+            // highlight: "#B82601",  // I might use this style later
+            highlight: "#FF3B3F",
             txt: "#FFFFFF"
         }
 

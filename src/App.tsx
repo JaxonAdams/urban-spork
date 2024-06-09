@@ -29,6 +29,7 @@ function App() {
     };
 
     setCurrentPage(pageMap[pageStr]);
+    setShowNavMenu(false);
   
     return pageStr;
   }
