@@ -305,7 +305,6 @@ footer {
   color: var(--txt);
   transition: all 0.3s ease;
   cursor: pointer;
-  margin: 0 1rem;
 }
 
 .dev-icon:hover {
@@ -353,6 +352,10 @@ footer {
 
 .project-card-right {
   padding-top: 2rem;
+}
+
+.project-languages>.dev-icon {
+  margin: 0 1rem;
 }
 
 .project-title {
