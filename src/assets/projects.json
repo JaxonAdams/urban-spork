@@ -1,7 +1,7 @@
 [
     {
         "projectTitle": "WGUPS",
-        "projectDescription": "A package delivery routing program implementing the nearest neighbor algorithm.",
+        "projectDescription": "A package delivery simulation implementing a greedy algorithm for package routing.",
         "languages": ["Python"],
         "image": "https://github.com/JaxonAdams/wgu-c950/assets/96997462/6173125f-f95b-4ff9-8b8a-4060df47ec1d",
         "githubLink": "https://github.com/JaxonAdams/wgu-c950/",
@@ -9,7 +9,7 @@
     },
     {
         "projectTitle": "PyGame RPG",
-        "projectDescription": "A simple \"Legend of Zelda\" inspired role-playing game, built with Python's \"PyGame\" library.",
+        "projectDescription": "A \"Legend of Zelda\" inspired role-playing game, built with Python's \"PyGame\" library.",
         "languages": ["Python"],
         "image": "https://github.com/JaxonAdams/py-rpg/assets/96997462/8e7f9acb-aa77-41f6-b3ff-bed851c5da4a",
         "githubLink": "https://github.com/JaxonAdams/py-rpg",
@@ -17,7 +17,7 @@
     },
     {
         "projectTitle": "URL Shortener",
-        "projectDescription": "A small TinyURL clone -- enter a URL and receive a smaller URL for the same page.",
+        "projectDescription": "A \"TinyURL\" app -- enter a URL and receive a smaller URL for the same page.",
         "languages": ["Python", "JavaScript"],
         "image": "https://github.com/JaxonAdams/special-disco/assets/96997462/4eb98989-e2b3-4bb5-8396-608fcd7d6698",
         "githubLink": "https://github.com/JaxonAdams/special-disco",

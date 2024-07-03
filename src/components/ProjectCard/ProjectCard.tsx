@@ -32,7 +32,7 @@ const ProjectCard: React.FC<Props> = ({ project }) => {
                 <p className="project-desc">{project.projectDescription}</p>
                 <ul className="project-languages">
                     {project.languages.map(language => {
-                        return <DevIcon language={language} />;
+                        return <DevIcon key={language} language={language} />;
                     })}
                 </ul>
             </div>
