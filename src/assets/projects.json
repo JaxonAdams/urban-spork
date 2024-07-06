@@ -3,7 +3,7 @@
         "projectTitle": "WGUPS",
         "projectDescription": "A package delivery simulation implementing a greedy algorithm for package routing.",
         "languages": ["Python"],
-        "image": "/src/assets/projects/wgups_img.png",
+        "image": "/projects/wgups_img.png",
         "githubLink": "https://github.com/JaxonAdams/wgu-c950/",
         "deployedLink": null
     },
@@ -11,7 +11,7 @@
         "projectTitle": "PyGame RPG",
         "projectDescription": "A \"Legend of Zelda\" inspired role-playing game, built with Python's \"PyGame\" library.",
         "languages": ["Python"],
-        "image": "/src/assets/projects/pyrpg_img.jfif",
+        "image": "/projects/pyrpg_img.jfif",
         "githubLink": "https://github.com/JaxonAdams/py-rpg",
         "deployedLink": null
     },
@@ -19,7 +19,7 @@
         "projectTitle": "URL Shortener",
         "projectDescription": "A \"TinyURL\" app -- enter a URL and receive a smaller URL for the same page.",
         "languages": ["Python", "JavaScript"],
-        "image": "/src/assets/projects/tinyurl_img.png",
+        "image": "/projects/tinyurl_img.png",
         "githubLink": "https://github.com/JaxonAdams/special-disco",
         "deployedLink": "https://little-url.vercel.app/"
     }
