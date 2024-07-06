@@ -1,6 +1,6 @@
 import React from "react";
 
-import projectsData from "../assets/projects.json";
+import projectsData from "../assets/projects/projects.json";
 import ProjectCard from "../components/ProjectCard/ProjectCard";
 
 const Projects: React.FC = () => {

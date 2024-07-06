@@ -3,7 +3,7 @@
         "projectTitle": "WGUPS",
         "projectDescription": "A package delivery simulation implementing a greedy algorithm for package routing.",
         "languages": ["Python"],
-        "image": "https://github.com/JaxonAdams/wgu-c950/assets/96997462/6173125f-f95b-4ff9-8b8a-4060df47ec1d",
+        "image": "/src/assets/projects/wgups_img.png",
         "githubLink": "https://github.com/JaxonAdams/wgu-c950/",
         "deployedLink": null
     },
@@ -11,7 +11,7 @@
         "projectTitle": "PyGame RPG",
         "projectDescription": "A \"Legend of Zelda\" inspired role-playing game, built with Python's \"PyGame\" library.",
         "languages": ["Python"],
-        "image": "https://github.com/JaxonAdams/py-rpg/assets/96997462/8e7f9acb-aa77-41f6-b3ff-bed851c5da4a",
+        "image": "/src/assets/projects/pyrpg_img.jfif",
         "githubLink": "https://github.com/JaxonAdams/py-rpg",
         "deployedLink": null
     },
@@ -19,7 +19,7 @@
         "projectTitle": "URL Shortener",
         "projectDescription": "A \"TinyURL\" app -- enter a URL and receive a smaller URL for the same page.",
         "languages": ["Python", "JavaScript"],
-        "image": "https://github.com/JaxonAdams/special-disco/assets/96997462/4eb98989-e2b3-4bb5-8396-608fcd7d6698",
+        "image": "/src/assets/projects/tinyurl_img.png",
         "githubLink": "https://github.com/JaxonAdams/special-disco",
         "deployedLink": "https://little-url.vercel.app/"
     }
