@@ -19,9 +19,10 @@ const Hero: React.FC = () => {
             </div>
             <div className="hero-intro-txt">
                 <p className="txt">
-                    I'm currently a product integrations engineer building new automations
-                    and integrating other platforms at LoanPro. At the moment I'm mostly
-                    building with Python and Ruby.
+                    I am currently a Product Integrations Engineer at LoanPro, where I specialize 
+                    in developing new automations and integrating various platforms. My work 
+                    predominantly involves programming in Python and Ruby, leveraging these languages 
+                    to create efficient and scalable solutions.
                 </p>
             </div>
         </div>
