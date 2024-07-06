@@ -364,6 +364,13 @@ footer {
   letter-spacing: 1.5px;
 }
 
+.project-links {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
 .project-link {
   color: var(--txt);
   letter-spacing: 1.3px;
@@ -374,6 +381,14 @@ footer {
   border-radius: 30px;
   transition: all 0.3s ease;
   padding: 1rem;
+  margin: 0 0.5rem 1rem 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.project-link>* {
+  margin: 0 0.5rem;
 }
 
 .project-link:hover {

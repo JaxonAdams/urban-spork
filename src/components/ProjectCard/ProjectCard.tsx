@@ -1,5 +1,5 @@
 import React from "react";
-import { Github } from "react-bootstrap-icons";
+import { Github, BoxArrowUpRight } from "react-bootstrap-icons";
 
 import DevIcon from "../DevIcon/DevIcon";
 
@@ -9,7 +9,7 @@ interface Project {
     languages: string[];
     image: string;
     githubLink: string;
-    deployedLink: string | null;
+    deployedLink: string | undefined | null;
 }
 
 interface Props {
@@ -27,9 +27,16 @@ const ProjectCard: React.FC<Props> = ({ project, imageSrc }) => {
                 </div>
             </div>
             <div className="project-card-right">
-                <a className="project-link" href={project.githubLink} target="_Blank">
-                    <Github /> GitHub
-                </a>
+                <div className="project-links">
+                    <a className="project-link" href={project.githubLink} target="_Blank">
+                        <Github /> GitHub
+                    </a>
+                    {project.deployedLink && (
+                        <a className="project-link" href={project.deployedLink} target="_Blank">
+                            <BoxArrowUpRight /> Live
+                        </a>
+                    )}
+                </div>
                 <p className="project-desc">{project.projectDescription}</p>
                 <ul className="project-languages">
                     {project.languages.map(language => {
