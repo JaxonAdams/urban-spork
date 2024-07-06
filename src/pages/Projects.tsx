@@ -6,6 +6,7 @@ import ProjectCard from "../components/ProjectCard/ProjectCard";
 import wgups from "../assets/projects/wgups_img.png";
 import pyrpg from "../assets/projects/pyrpg_img.jfif";
 import tinyurl from "../assets/projects/tinyurl_img.png";
+import clordle from "../assets/projects/clordle_img.png";
 
 interface ImageMap {
     [key: string]: string;
@@ -14,7 +15,8 @@ interface ImageMap {
 const images: ImageMap = {
     "WGUPS": wgups,
     "PyGame RPG": pyrpg,
-    "URL Shortener": tinyurl
+    "URL Shortener": tinyurl,
+    "Clordle": clordle,
 };
 
 const Projects: React.FC = () => {

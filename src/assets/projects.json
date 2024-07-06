@@ -8,6 +8,14 @@
         "deployedLink": null
     },
     {
+        "projectTitle": "Clordle",
+        "projectDescription": "A \"Wordle\" clone powered by a Clojure backend and a vanilla JavaScript frontend.",
+        "languages": ["Clojure", "JavaScript"],
+        "image": "/projects/clordle_img.png",
+        "githubLink": "https://github.com/JaxonAdams/clordle",
+        "deployedLink": "https://clordle-tw8u.onrender.com/"
+    },
+    {
         "projectTitle": "PyGame RPG",
         "projectDescription": "A \"Legend of Zelda\" inspired role-playing game, built with Python's \"PyGame\" library.",
         "languages": ["Python"],
