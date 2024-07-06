@@ -469,6 +469,15 @@ footer {
 
 /* mobile phone styles */
 @media screen and (max-width: 580px) {
+  .hero {
+    margin: 0;
+  }
+
+  .hero-intro-txt {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
   .language-carousel {
     gap: 30px;
   }
