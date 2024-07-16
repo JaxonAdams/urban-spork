@@ -515,3 +515,16 @@ footer {
     height: 200px;
   }
 }
+
+/* smaller mobile phone screens */
+@media screen and (max-width: 400px) {
+  .nav-menu {
+    transition: all 0.1s ease;
+  }
+
+  .nav-menu.nav-visible>* {
+    margin: 10px 0;
+  }
+}
+
+/* end media queries for responsive layout */
