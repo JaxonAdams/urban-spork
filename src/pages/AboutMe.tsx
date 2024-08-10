@@ -1,7 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import DevIcon from "../components/DevIcon/DevIcon";
 
 const AboutMe: React.FC = () => {
+    
+    useEffect(() => {
+        document.title = "Jaxon Adams | About Me";
+    });
+
     return (
         <div className="about-me">
             <div className="about-me-txt-container">
@@ -26,8 +31,8 @@ const AboutMe: React.FC = () => {
                     and NoSQL databases, and I am well-versed in REST, SOAP, and GraphQL APIs.
                 </p>
                 <p className="txt">
-                My ability to quickly adapt to new environments and rapidly acquire new skills 
-                and technologies is one of my greatest assets.
+                    My ability to quickly adapt to new environments and rapidly acquire new skills 
+                    and technologies is one of my greatest assets.
                 </p>
             </div>
             <div className="about-me-txt-container language-carousel">

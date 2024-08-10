@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import projectsData from "../assets/projects.json";
 import ProjectCard from "../components/ProjectCard/ProjectCard";
@@ -20,6 +20,10 @@ const images: ImageMap = {
 };
 
 const Projects: React.FC = () => {
+
+    useEffect(() => {
+        document.title = "Jaxon Adams | Projects";
+    });
 
     return (
         <div className="projects">
