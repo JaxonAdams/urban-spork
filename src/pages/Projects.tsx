@@ -3,6 +3,7 @@ import React, { useEffect } from "react";
 import projectsData from "../assets/projects.json";
 import ProjectCard from "../components/ProjectCard/ProjectCard";
 
+import premiumCalculator from "../assets/projects/premium_calculator_img.png";
 import wgups from "../assets/projects/wgups_img.png";
 import pyrpg from "../assets/projects/pyrpg_img.jfif";
 import tinyurl from "../assets/projects/tinyurl_img.png";
@@ -13,6 +14,7 @@ interface ImageMap {
 }
 
 const images: ImageMap = {
+    "Premium Calculator": premiumCalculator,
     "WGUPS": wgups,
     "PyGame RPG": pyrpg,
     "URL Shortener": tinyurl,

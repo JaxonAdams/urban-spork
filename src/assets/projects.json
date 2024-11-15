@@ -1,5 +1,13 @@
 [
     {
+        "projectTitle": "Premium Calculator",
+        "projectDescription": "A transaction-based calculator providing simple operations with an associated cost for each.",
+        "languages": ["Python", "JavaScript"],
+        "image": "/projects/premium_calculator_img.png",
+        "githubLink": "https://github.com/JaxonAdams/calculator-service-server",
+        "deployedLink": "https://main.dnqypv6aii50v.amplifyapp.com/"
+    },
+    {
         "projectTitle": "WGUPS",
         "projectDescription": "A package delivery simulation implementing a greedy algorithm for package routing.",
         "languages": ["Python"],
