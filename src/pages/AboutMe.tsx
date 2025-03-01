@@ -37,13 +37,13 @@ const AboutMe: React.FC = () => {
             </div>
             <div className="about-me-txt-container language-carousel">
                 <DevIcon language="Python" />
-                <DevIcon language="Java" />
-                <DevIcon language="Ruby" />
-                <DevIcon language="TypeScript" />
+                <DevIcon language="Go" />
                 <DevIcon language="Clojure" />
+                <DevIcon language="TypeScript" />
                 <DevIcon language="JavaScript" />
+                <DevIcon language="Java" />
                 <DevIcon language="MySQL" />
-                <DevIcon language="CPlusPlus" altText="C++" />
+                <DevIcon language="AmazonWebServices" altText="AWS" />
                 <DevIcon language="MongoDB" />
             </div>
         </div>
