@@ -4,7 +4,8 @@
         "projectDescription": "A transaction-based calculator providing simple operations with an associated cost for each.",
         "languages": ["Python", "JavaScript"],
         "image": "/projects/premium_calculator_img.png",
-        "githubLink": "https://github.com/JaxonAdams/calculator-service-server"
+        "githubLink": "https://github.com/JaxonAdams/calculator-service-server",
+        "deployedLink": null
     },
     {
         "projectTitle": "WGUPS",

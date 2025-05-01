@@ -20,8 +20,8 @@ const Hero: React.FC = () => {
             <div className="hero-intro-txt">
                 <p className="txt">
                     I am currently a Software Engineer at LoanPro, focusing on back-end development.
-                    I'm usually programming in Go or Python, leveraging these languages to build
-                    solutions with a focus on performance and maintainability.
+                    I'm usually programming in Go, Python, or Clojure. I leverage these languages to
+                    build solutions with a focus on performance and maintainability.
                 </p>
             </div>
         </div>
