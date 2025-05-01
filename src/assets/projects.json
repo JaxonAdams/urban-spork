@@ -21,7 +21,7 @@
         "languages": ["Clojure", "JavaScript"],
         "image": "/projects/clordle_img.png",
         "githubLink": "https://github.com/JaxonAdams/clordle",
-        "deployedLink": "https://clordle-tw8u.onrender.com/"
+        "deployedLink": null
     },
     {
         "projectTitle": "PyGame RPG",
