@@ -146,7 +146,6 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 10vh 0;
   flex-direction: column;
 }
 
@@ -212,6 +211,10 @@ header {
 .hero-intro-txt {
   margin: 0 10rem;
   padding: 1rem;
+}
+
+.hero-intro-txt>.txt {
+  font-size: 1.3rem;
 }
 /* end hero component styles */
 
