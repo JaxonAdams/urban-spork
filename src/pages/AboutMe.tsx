@@ -10,25 +10,35 @@ const AboutMe: React.FC = () => {
     return (
         <div className="about-me">
             <div className="about-me-txt-container">
-                <h1 className="txt-container-header">Always Learning</h1>
+                <h1 className="txt-container-header">A Lifelong Learner</h1>
                 <p className="txt">
-                    As a dedicated software engineer based in Eagle Mountain, Utah, I 
-                    specialize in server-side development while also possessing a robust 
-                    set of front-end skills.
+                    I'm a backend-focused software engineer with a passion for building scalable,
+                    reliable systems that solve real-world problems. With professional experience
+                    in Python, Go, and Clojure, I bring strong, multi-paradigm expertise in
+                    backend development while still maintaining a solid front-end foundation
+                    in TypeScript and JavaScript.
                 </p>
                 <p className="txt">
-                    My passion for continuous improvement drives me to constantly enhance my 
-                    capabilities and embrace new technologies. I love the inherent challenges
-                    of software development, and I find immense satisfaction in designing and
-                    building innovative software solutions.
+                    I thrive in fast-paced, collaborative environments where learning is constant and
+                    challenges are meaningful. Whether I'm designing RESTful APIs, optimizing database
+                    queries, or shipping features in production, I'm driven by clean architecture and
+                    thoughtful design.
+                </p>
+                <p className="txt">
+                    I take pride in my ability to quickly pick up new tools and frameworks, contribute
+                    to cross-functional teams, and deliver well-tested, maintainable code. Currently,
+                    I'm especially interested in cloud-native development, serverless architecture,
+                    and scalable data systems.
                 </p>
             </div>
             <div className="about-me-txt-container">
-                <h1 className="txt-container-header">Languages & Technologies</h1>
+                <h1 className="txt-container-header">Core Skills</h1>
                 <p className="txt">
-                    My expertise lies in Python, though I am proficient in a diverse array of
-                    programming languages. I have extensive experience working with both SQL 
-                    and NoSQL databases, and I am well-versed in REST, SOAP, and GraphQL APIs.
+                    My technical skill set includes proficiency in Python, Go, Clojure, TypeScript,
+                    Java, and Ruby. I have hands-on exprience with relational databases like MySQL and
+                    PostgreSQL, as well as NoSQL systems like DynamoDB and MongoDB. I'm comfortable
+                    designing and working with RESTful and GraphQL APIs, and regularly use tools like
+                    Docker, Git, and AWS for development and deployment.
                 </p>
                 <p className="txt">
                     My ability to quickly adapt to new environments and rapidly acquire new skills 
