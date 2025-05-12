@@ -10,13 +10,12 @@ const AboutMe: React.FC = () => {
     return (
         <div className="about-me">
             <div className="about-me-txt-container">
-                <h1 className="txt-container-header">A Lifelong Learner</h1>
+                <h1 className="txt-container-header">Solving Problems With Software</h1>
                 <p className="txt">
                     I'm a backend-focused software engineer with a passion for building scalable,
                     reliable systems that solve real-world problems. With professional experience
-                    in Python, Go, and Clojure, I bring strong, multi-paradigm expertise in
-                    backend development while still maintaining a solid front-end foundation
-                    in TypeScript and JavaScript.
+                    in several programming languages, I bring strong, multi-paradigm expertise in
+                    backend development while still maintaining a solid foundation in frontend technologies.
                 </p>
                 <p className="txt">
                     I thrive in fast-paced, collaborative environments where learning is constant and
@@ -47,7 +46,7 @@ const AboutMe: React.FC = () => {
             </div>
             <div className="about-me-txt-container language-carousel">
                 <DevIcon language="Python" />
-                <DevIcon language="Go" />
+                <DevIcon language="Go" altType="original-wordmark" altText="Golang" />
                 <DevIcon language="Clojure" />
                 <DevIcon language="TypeScript" />
                 <DevIcon language="JavaScript" />
