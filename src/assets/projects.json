@@ -1,5 +1,13 @@
 [
     {
+        "projectTitle": "WGU Capstone - ML Loan Risk Assessment",
+        "projectDescription": "A machine learning model trained on historical loan data to predict the likelihood of default in early-stage applications.",
+        "languages": ["Python", "JavaScript"],
+        "image": "/projects/capstone.png",
+        "githubLink": "https://github.com/JaxonAdams/wgu-capstone",
+        "deployedLink": "https://wgu-capstone-client.onrender.com"
+    },
+    {
         "projectTitle": "Premium Calculator",
         "projectDescription": "A transaction-based calculator providing simple operations with an associated cost for each.",
         "languages": ["Python", "JavaScript"],
