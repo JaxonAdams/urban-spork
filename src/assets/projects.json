@@ -16,14 +16,6 @@
         "deployedLink": null
     },
     {
-        "projectTitle": "WGUPS",
-        "projectDescription": "A package delivery simulation implementing a greedy algorithm for package routing.",
-        "languages": ["Python"],
-        "image": "/projects/wgups_img.png",
-        "githubLink": "https://github.com/JaxonAdams/wgu-c950/",
-        "deployedLink": null
-    },
-    {
         "projectTitle": "Clordle",
         "projectDescription": "A \"Wordle\" clone powered by a Clojure backend and a vanilla JavaScript frontend.",
         "languages": ["Clojure", "JavaScript"],
@@ -38,13 +30,5 @@
         "image": "/projects/pyrpg_img.jfif",
         "githubLink": "https://github.com/JaxonAdams/py-rpg",
         "deployedLink": null
-    },
-    {
-        "projectTitle": "URL Shortener",
-        "projectDescription": "A \"TinyURL\" app -- enter a URL and receive a smaller URL for the same page.",
-        "languages": ["Python", "JavaScript"],
-        "image": "/projects/tinyurl_img.png",
-        "githubLink": "https://github.com/JaxonAdams/special-disco",
-        "deployedLink": "https://little-url.vercel.app/"
     }
 ]
