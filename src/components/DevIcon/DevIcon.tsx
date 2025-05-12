@@ -3,6 +3,7 @@ import React from "react";
 interface Props {
     language: string;
     altText?: string;
+    altType?: string;
 }
 
 const DevIcon:React.FC<Props> = ({ language, altText, altType }) => {
