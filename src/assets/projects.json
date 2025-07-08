@@ -1,5 +1,13 @@
 [
     {
+        "projectTitle": "Fake News Classifier",
+        "projectDescription": "A machine learning model trained to detect fake news headlines, boasting high performance and accuracy.",
+        "languages": ["Python", "Clojure"],
+        "image": "/projects/fake_news_img.png",
+        "githubLink": "https://github.com/JaxonAdams/fake-news-classifier",
+        "deployedLink": "http://fake-news-classifier-jaxonadams-frontend.s3-website-us-west-1.amazonaws.com/"
+    },
+    {
         "projectTitle": "WGU Capstone - ML Loan Risk Assessment",
         "projectDescription": "A machine learning model trained on historical loan data to predict the likelihood of default in early-stage applications.",
         "languages": ["Python", "JavaScript"],
